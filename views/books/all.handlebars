@@ -1,0 +1,9 @@
+<h1>Todos os livros</h1>
+<div class="books">
+  {{#each books}}
+    <div class="book">
+      <h3>{{this.title}}</h3>
+      <p>R$ {{this.price}}</p>
+    </div>
+  {{/each}}
+</div>
